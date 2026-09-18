@@ -13,24 +13,30 @@ go straight there without fetching anything yourself. Only get your own
 WhoisXMLAPI key (stage 1) if you want to fetch fresh WHOIS history or
 extend the dataset to more domains.
 
-**Not checked in:** `results/whois_history_cache.json` (raw WHOIS history,
-~305MB) and `results/whois_history_results.json` (~81MB) are excluded from
-git — both are far over GitHub's size limits, and neither is needed to
-reproduce any reported result. `whois_history_cache.json` is read only by
-`simplify_dataset.py` (stage 2), whose *output* — `whois_history_cache_simplified.json`
-— is already here; `whois_history_results.json` isn't read by any script in
-this pipeline at all. The only thing their absence costs you is the ability
-to re-derive the simplified cache yourself instead of trusting the included
-one — everything downstream of it (the actual ownership-change scoring/
-validation) is unaffected and needs no WhoisXMLAPI credits.
+**Also included (via Git LFS):** `results/whois_history_cache.json` (raw
+WHOIS history, ~305MB) and `results/whois_history_results.json` (~81MB) —
+both are far over GitHub's normal blob size limit, so they're tracked with
+[Git LFS](https://git-lfs.com/) rather than as regular git objects. Make
+sure you have Git LFS installed (`git lfs install`, once per machine)
+*before* cloning, or run `git lfs pull` after cloning if you already have a
+checkout — otherwise these two will show up as small text pointer files
+instead of the real data. Strictly speaking, **neither is required** to
+reproduce any reported result: `whois_history_cache.json` is read only by
+`simplify_dataset.py` (stage 2), whose *output* —
+`whois_history_cache_simplified.json` — is a normal (non-LFS) git blob
+already here, and `whois_history_results.json` isn't read by any script in
+this pipeline at all. They're included anyway so you can inspect the raw
+fetched data or re-derive the simplified cache yourself if you want to;
+everything downstream of it (the actual ownership-change scoring/
+validation) needs no WhoisXMLAPI credits either way.
 
 **Verified:** stages 2-4 (`simplify_dataset.py` → `ownership_change_analysis.py`
 → `convert_results_to_csv.py`) were rerun from scratch, starting only from
-`whois_history_cache.json` (before it was excluded here), in an isolated
-copy of this directory, and produced byte-for-byte identical output to
-every file checked into `results/`. `verifiable_domains.py` and
-`diagnosis.py` were also run end-to-end without errors. `analysis_v2.py`
-had a real bug — see below — which is now fixed and verified.
+`whois_history_cache.json`, in an isolated copy of this directory, and
+produced byte-for-byte identical output to every file checked into
+`results/`. `verifiable_domains.py` and `diagnosis.py` were also run
+end-to-end without errors. `analysis_v2.py` had a real bug — see below —
+which is now fixed and verified.
 
 ## Pipeline
 
@@ -76,9 +82,9 @@ domain-change-analysis/
 │   ├── sampled_urls_4_domain_analysis-III.csv   # sampling iteration 3 (500 hostnames) — the one whois_api_client.py reads
 │   └── sampled_urls_4_domain_analysis_stats.md  # log of how the samples were drawn
 └── results/
-    ├── whois_history_results.json               # stage 1 output (NOT in git, ~81MB — see note above)
+    ├── whois_history_results.json               # stage 1 output (Git LFS, ~81MB — see note above)
     ├── whois_history_results_summary.csv        # stage 1 output
-    ├── whois_history_cache.json                 # stage 1 output (NOT in git, ~305MB — see note above)
+    ├── whois_history_cache.json                 # stage 1 output (Git LFS, ~305MB — see note above)
     ├── whois_history_cache_simplified.json      # stage 2 output / stage 3 input
     ├── validation_results.json                  # stage 3 output
     ├── validation_results_ground_truth.json     # stage 3 output
@@ -134,7 +140,7 @@ cache_file = 'results/whois_history_cache.json'
   the reduced fetched data for the included sample, so stages 2–4 and the
   optional analyses run as-is with no key at all. Only get your own key if
   you want to fetch WHOIS history for additional domains, refresh the
-  existing ones, or regenerate the (git-excluded) raw
+  existing ones, or regenerate the already-included raw
   `whois_history_cache.json` / `whois_history_results.json` yourself — see
   WhoisXMLAPI's docs for making requests:
   https://whois-history.whoisxmlapi.com/api/documentation/making-requests.

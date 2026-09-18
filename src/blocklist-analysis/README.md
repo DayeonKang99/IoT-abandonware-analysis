@@ -13,8 +13,8 @@ blocklist-analysis/
 ├── url_analysis.py             # main scanner (Firebog-style category blocklists)
 ├── url_domains_extractor.py    # merges per-batch URL files -> urls_merged.json (see below)
 ├── blocklists/                 # category blocklists (domain lists, JSON arrays)
-├── urls/                        # urls_merged.json goes here — NOT in git, see below
-├── results/                    # small reference outputs only — results.csv NOT in git, see below
+├── urls/urls_merged.json       # input: app -> [urls] mapping, full corpus (tracked via Git LFS)
+├── results/                    # includes a full reference run (results.csv, via Git LFS)
 └── malicious-checks/           # supplementary checks against public sources (OISD, URLhaus, ad-network list)
 ```
 
@@ -43,18 +43,22 @@ The scanner reads app → URL mappings from a JSON file matched by
 
 `urls_merged.json` is the full corpus: 61,500 apps, 8,566,646 URLs.
 
-**Not checked in — download it separately.** At ~514MB it's well over
-GitHub's per-file limit, and it's raw extracted data rather than something
-derivable from anything else in this repo (regenerating it means
-redecompiling and re-scanning all 61,500 APKs). Download it from this
-repo's [Releases page](<RELEASE_URL>) and place it at `urls/urls_merged.json`.
+**Tracked via Git LFS**, not a regular git blob — at ~514MB it's well over
+GitHub's per-file limit for normal blobs, and it's raw extracted data
+rather than something derivable from anything else in this repo
+(regenerating it means redecompiling and re-scanning all 61,500 APKs).
+Make sure you have [Git LFS](https://git-lfs.com/) installed
+(`git lfs install`, once per machine) *before* cloning, or run
+`git lfs pull` after cloning if you already have a checkout — otherwise
+you'll get a small text pointer file instead of the real data.
 
-`results/results.csv` (the full scan output, one row per URL) is likewise
-excluded — at 1.6GB it's even larger, but unlike `urls_merged.json` it's
-fully regenerable: just run `url_analysis.py` against `urls_merged.json`
-and `blocklists/` (both free, no paid API), which takes roughly 6-8 hours
-with `--workers 24`. `results/results_summary_per_app.csv` (a small
-per-app rollup, see below) is kept in git as a lightweight reference.
+`results/results.csv` (the full scan output, one row per URL, also via
+Git LFS) is a completed reference run over the same `urls_merged.json` —
+1.6GB, 8,566,646 rows. It's also fully regenerable without it: just run
+`url_analysis.py` against `urls_merged.json` and `blocklists/` (both free,
+no paid API), which takes roughly 6-8 hours with `--workers 24`.
+`results/results_summary_per_app.csv` (a small per-app rollup, see below)
+is a normal (non-LFS) git blob.
 
 `urls_merged.json` was originally produced across 5 separate batch files
 (`urls_part1_merged.json` … `urls_part5_merged.json`, outputs of the
@@ -130,26 +134,22 @@ Written to `--output-dir` (default `results/`, created if missing):
 - `summary.json` / `summary.csv` — counts by category + top offending domains per category
 - `scanner.log` — run log
 
-### Reference run
+### Reference run (included)
 
-A full prior run exists (8,566,646 rows, one per URL in `urls_merged.json`)
-but its `results.csv` (1.6GB) is **not checked in** — see
-[Input data](#input-data) above for why, and how to regenerate it yourself
-(~6-8 hours, no paid API needed).
+`results/` contains a full prior run to compare against:
 
-What *is* checked in from that run:
-
-- `results/results_summary_per_app.csv` — a per-app rollup (one row per
-  app, with per-category match counts) derived from `results.csv`. This
-  isn't produced by `url_analysis.py` itself (which only emits a global
+- `results.csv` (via Git LFS) — the complete output this scanner produces
+  (8,566,646 rows, one per URL in `urls_merged.json`).
+- `results_summary_per_app.csv` — a per-app rollup (one row per app, with
+  per-category match counts) derived from `results.csv`. This isn't
+  produced by `url_analysis.py` itself (which only emits a global
   `summary.csv`, not a per-app one) — it's a downstream aggregation used
   later to join with permissions/CVE data elsewhere in the project. No
   script for it is included here, but it's a simple groupby (by `app`,
-  counting matches per `category`) if you need to regenerate it from your
-  own `results.csv`.
+  counting matches per `category`) if you need to regenerate it.
 
 There's no `results.json`, `results_checkpoint.jsonl`, or `summary.json`
-included from that run — only `results_summary_per_app.csv` survived here.
+included for this reference run — only the two CSVs above survived.
 
 ## `malicious-checks/` — supplementary checks
 
