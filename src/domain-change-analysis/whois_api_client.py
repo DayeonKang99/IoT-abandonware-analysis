@@ -382,7 +382,10 @@ def main():
     #     print("  --skip-validation    Skip WHOIS validation (not recommended)")
     #     sys.exit(1)
     
-    #TODO: Delete apiKey before sharing code/pushing to bitbucket
+    # Only needed if you want to fetch/extend WHOIS history yourself — the
+    # curated results already in results/ (whois_history_cache.json etc.)
+    # work with no key at all. Get your own key at
+    # https://whois-history.whoisxmlapi.com/api/documentation/making-requests
     api_key = "" #sys.argv[1]
     csv_file = "data/sampled_urls_4_domain_analysis-III.csv" #sys.argv[2]
 

@@ -1,0 +1,3046 @@
+[
+  {
+    "domain": "firebaseio.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-09-14",
+    "last_date": "2025-09-13"
+  },
+  {
+    "domain": "dynalias.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-08-02",
+    "last_date": "2025-01-12"
+  },
+  {
+    "domain": "akita-airport.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-15",
+    "last_date": "2025-07-21"
+  },
+  {
+    "domain": "autodesk.com",
+    "predicted_change": false,
+    "score": 0.3,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-07-29",
+    "last_date": "2025-09-19"
+  },
+  {
+    "domain": "cloudfront.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-31",
+    "last_date": "2025-01-31"
+  },
+  {
+    "domain": "dragosfotescu.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-04-27",
+    "last_date": "2025-11-24"
+  },
+  {
+    "domain": "10086.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-26",
+    "last_date": "2025-06-16"
+  },
+  {
+    "domain": "163.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-04-08",
+    "last_date": "2025-08-04"
+  },
+  {
+    "domain": "511mt.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-10-15",
+    "last_date": "2025-10-14"
+  },
+  {
+    "domain": "accesscontrolsolutionsinc.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-29",
+    "last_date": "2024-09-29"
+  },
+  {
+    "domain": "airport-dubrovnik.hr",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-10-20",
+    "last_date": "2025-09-28"
+  },
+  {
+    "domain": "alicdn.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-11-08",
+    "last_date": "2025-12-05"
+  },
+  {
+    "domain": "aliyuncs.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-02-16",
+    "last_date": "2025-12-17"
+  },
+  {
+    "domain": "amazonaws.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-29",
+    "last_date": "2025-08-04"
+  },
+  {
+    "domain": "andre.si",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": true
+    },
+    "first_date": "2024-07-01",
+    "last_date": "2025-06-21"
+  },
+  {
+    "domain": "anymote.io",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-27",
+    "last_date": "2025-01-27"
+  },
+  {
+    "domain": "arresoe-weather.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-30",
+    "last_date": "2025-09-07"
+  },
+  {
+    "domain": "autoroutes.fr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-11-06",
+    "last_date": "2025-11-06"
+  },
+  {
+    "domain": "azure-api.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-05",
+    "last_date": "2025-11-11"
+  },
+  {
+    "domain": "azurewebsites.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-12-23",
+    "last_date": "2025-12-23"
+  },
+  {
+    "domain": "baidu.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2025-03-25",
+    "last_date": "2025-04-08"
+  },
+  {
+    "domain": "bas.ac.uk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2025-09-14",
+    "last_date": "2025-11-02"
+  },
+  {
+    "domain": "bike24.com",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": true,
+      "country": false
+    },
+    "first_date": "2024-01-03",
+    "last_date": "2025-12-15"
+  },
+  {
+    "domain": "bocasurfcam.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-11-17",
+    "last_date": "2024-11-17"
+  },
+  {
+    "domain": "bohinj-park-hotel.si",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-25",
+    "last_date": "2025-01-07"
+  },
+  {
+    "domain": "cityofadelaide.com.au",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-01-12",
+    "last_date": "2025-10-22"
+  },
+  {
+    "domain": "clevelandweather.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-10-29",
+    "last_date": "2025-10-29"
+  },
+  {
+    "domain": "cloudfunctions.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-11-01",
+    "last_date": "2025-11-01"
+  },
+  {
+    "domain": "cmedhealth.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-05-07",
+    "last_date": "2025-06-22"
+  },
+  {
+    "domain": "co2art.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-20",
+    "last_date": "2025-12-23"
+  },
+  {
+    "domain": "comfortlife.me",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-05-17",
+    "last_date": "2025-05-17"
+  },
+  {
+    "domain": "comfortlife.net.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-10-05",
+    "last_date": "2025-09-16"
+  },
+  {
+    "domain": "comunitatvalenciana.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-21",
+    "last_date": "2025-07-18"
+  },
+  {
+    "domain": "controlites.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-25",
+    "last_date": "2025-01-24"
+  },
+  {
+    "domain": "csdnimg.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-10-02",
+    "last_date": "2025-09-12"
+  },
+  {
+    "domain": "ddsc.org.au",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-16",
+    "last_date": "2024-05-30"
+  },
+  {
+    "domain": "deg.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-09-10",
+    "last_date": "2025-10-29"
+  },
+  {
+    "domain": "didi.si",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2025-07-19",
+    "last_date": "2025-08-22"
+  },
+  {
+    "domain": "doapps.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-11",
+    "last_date": "2025-01-11"
+  },
+  {
+    "domain": "dokit.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-25",
+    "last_date": "2025-06-18"
+  },
+  {
+    "domain": "drrp.pe",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-18",
+    "last_date": "2025-11-10"
+  },
+  {
+    "domain": "dyndns.org",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-10-20",
+    "last_date": "2025-10-20"
+  },
+  {
+    "domain": "easym.com.br",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-09-23",
+    "last_date": "2025-08-19"
+  },
+  {
+    "domain": "ecu.edu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-07-03",
+    "last_date": "2025-07-02"
+  },
+  {
+    "domain": "evalutrac.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-08-04",
+    "last_date": "2025-05-10"
+  },
+  {
+    "domain": "feishu.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-12-21",
+    "last_date": "2025-09-09"
+  },
+  {
+    "domain": "fluke.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2025-10-27",
+    "last_date": "2025-11-01"
+  },
+  {
+    "domain": "gatesweather.us",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-04",
+    "last_date": "2025-05-14"
+  },
+  {
+    "domain": "getofficeapp.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-08",
+    "last_date": "2025-03-08"
+  },
+  {
+    "domain": "gmf.fr",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-09-17",
+    "last_date": "2025-11-11"
+  },
+  {
+    "domain": "gov.bc.ca",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-22",
+    "last_date": "2025-10-20"
+  },
+  {
+    "domain": "herlev-vejret.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-19",
+    "last_date": "2025-03-12"
+  },
+  {
+    "domain": "herningweather.dk",
+    "predicted_change": false,
+    "score": 0.45,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": false,
+      "dnssec": true,
+      "country": false
+    },
+    "first_date": "2024-03-20",
+    "last_date": "2025-03-15"
+  },
+  {
+    "domain": "higashinaruse.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-04-02",
+    "last_date": "2025-03-31"
+  },
+  {
+    "domain": "hik-connect.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-11-13",
+    "last_date": "2025-11-13"
+  },
+  {
+    "domain": "hilife.sg",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-05-19"
+  },
+  {
+    "domain": "hirtshals-fyrtaarn.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-06-24",
+    "last_date": "2025-09-10"
+  },
+  {
+    "domain": "hirtshalshavn.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-19",
+    "last_date": "2025-09-11"
+  },
+  {
+    "domain": "hotel-mike.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-07-17",
+    "last_date": "2025-11-24"
+  },
+  {
+    "domain": "hoval.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-09-17",
+    "last_date": "2025-11-05"
+  },
+  {
+    "domain": "huami.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-03-20",
+    "last_date": "2024-12-24"
+  },
+  {
+    "domain": "ihorn.com.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-07-04",
+    "last_date": "2025-06-21"
+  },
+  {
+    "domain": "istramet.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-11-26",
+    "last_date": "2025-11-14"
+  },
+  {
+    "domain": "iwate-u.ac.jp",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-03-31",
+    "last_date": "2025-03-31"
+  },
+  {
+    "domain": "izor.hr",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-05-13",
+    "last_date": "2025-05-13"
+  },
+  {
+    "domain": "jwaq.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-22",
+    "last_date": "2025-09-22"
+  },
+  {
+    "domain": "kpax.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-28",
+    "last_date": "2025-03-28"
+  },
+  {
+    "domain": "krtv.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-01-03",
+    "last_date": "2026-01-03"
+  },
+  {
+    "domain": "ktn.gv.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-03-23",
+    "last_date": "2025-12-12"
+  },
+  {
+    "domain": "ktvq.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-05-04",
+    "last_date": "2025-05-04"
+  },
+  {
+    "domain": "laperlahotel.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-17",
+    "last_date": "2024-12-19"
+  },
+  {
+    "domain": "lembergahute.lv",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-03-17",
+    "last_date": "2026-01-04"
+  },
+  {
+    "domain": "litguardian.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true
+    },
+    "first_date": "2024-08-01",
+    "last_date": "2025-09-22"
+  },
+  {
+    "domain": "lnigrado.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-07-21",
+    "last_date": "2025-08-05"
+  },
+  {
+    "domain": "maaf.fr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-01-22",
+    "last_date": "2025-01-27"
+  },
+  {
+    "domain": "mccall.id.us",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-16",
+    "last_date": "2025-06-17"
+  },
+  {
+    "domain": "mellegers.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-06-15",
+    "last_date": "2025-07-22"
+  },
+  {
+    "domain": "meteodheure.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-02-02",
+    "last_date": "2025-01-23"
+  },
+  {
+    "domain": "michelin.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-06-17",
+    "last_date": "2025-12-14"
+  },
+  {
+    "domain": "momentum-cam.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-23",
+    "last_date": "2025-09-23"
+  },
+  {
+    "domain": "montraker.hr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-25",
+    "last_date": "2025-12-27"
+  },
+  {
+    "domain": "mysolomio.io",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-08-06",
+    "last_date": "2025-08-06"
+  },
+  {
+    "domain": "nativo.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-08-12",
+    "last_date": "2025-08-12"
+  },
+  {
+    "domain": "nau.edu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-08",
+    "last_date": "2025-12-15"
+  },
+  {
+    "domain": "netdna-ssl.com",
+    "predicted_change": false,
+    "score": 0.39999999999999997,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": true,
+      "country": true
+    },
+    "first_date": "2024-07-24",
+    "last_date": "2025-07-29"
+  },
+  {
+    "domain": "novi-marof.hr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-09-08",
+    "last_date": "2025-08-09"
+  },
+  {
+    "domain": "nsk.hr",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-11-26",
+    "last_date": "2025-12-09"
+  },
+  {
+    "domain": "nsoria.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-01-27",
+    "last_date": "2025-12-23"
+  },
+  {
+    "domain": "nubia.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-22",
+    "last_date": "2025-06-15"
+  },
+  {
+    "domain": "oca.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-09-28"
+  },
+  {
+    "domain": "ohgo.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-26",
+    "last_date": "2025-03-26"
+  },
+  {
+    "domain": "ottosolutions.sg",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-12-22"
+  },
+  {
+    "domain": "perenio.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-05-10",
+    "last_date": "2025-10-13"
+  },
+  {
+    "domain": "petkit.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-30",
+    "last_date": "2025-02-13"
+  },
+  {
+    "domain": "petkt.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-23",
+    "last_date": "2025-04-23"
+  },
+  {
+    "domain": "pfg.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-30",
+    "last_date": "2025-09-12"
+  },
+  {
+    "domain": "photophoto.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-25",
+    "last_date": "2025-06-19"
+  },
+  {
+    "domain": "pil.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2025-01-17",
+    "last_date": "2025-09-13"
+  },
+  {
+    "domain": "pljusak.hr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-05-06",
+    "last_date": "2025-04-15"
+  },
+  {
+    "domain": "pornoitaliano.it",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true
+    },
+    "first_date": "2024-10-25",
+    "last_date": "2025-11-26"
+  },
+  {
+    "domain": "premiumbikegear.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-05-15",
+    "last_date": "2025-12-14"
+  },
+  {
+    "domain": "protezionecivile.fvg.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-27",
+    "last_date": "2025-12-06"
+  },
+  {
+    "domain": "qq.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-02-26",
+    "last_date": "2025-12-16"
+  },
+  {
+    "domain": "remezlight.com",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": true
+    },
+    "first_date": "2024-07-12",
+    "last_date": "2025-07-11"
+  },
+  {
+    "domain": "reply.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-04-24",
+    "last_date": "2025-08-13"
+  },
+  {
+    "domain": "securuscctv.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-29",
+    "last_date": "2025-11-19"
+  },
+  {
+    "domain": "sedonawebcam.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-12-22",
+    "last_date": "2025-12-22"
+  },
+  {
+    "domain": "seven-systems.com.ua",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-01-30",
+    "last_date": "2025-01-30"
+  },
+  {
+    "domain": "sicsas.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-10-23"
+  },
+  {
+    "domain": "sixpadapp.jp",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-04-30",
+    "last_date": "2025-04-30"
+  },
+  {
+    "domain": "skijalistasrbije.rs",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-11",
+    "last_date": "2025-03-11"
+  },
+  {
+    "domain": "starspace.lv",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-03-17",
+    "last_date": "2025-12-22"
+  },
+  {
+    "domain": "state.oh.us",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-06-24"
+  },
+  {
+    "domain": "staums.cn",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "registrar": true
+    },
+    "first_date": "2024-09-26",
+    "last_date": "2025-11-12"
+  },
+  {
+    "domain": "sternberk.cz",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-04-23",
+    "last_date": "2024-12-11"
+  },
+  {
+    "domain": "tb.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-03-24",
+    "last_date": "2025-03-15"
+  },
+  {
+    "domain": "touchmark.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-02-02",
+    "last_date": "2025-02-02"
+  },
+  {
+    "domain": "trainingbible.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-06-11",
+    "last_date": "2025-11-03"
+  },
+  {
+    "domain": "trevandsteve.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-07-03",
+    "last_date": "2025-07-04"
+  },
+  {
+    "domain": "tv2bornholm.dk",
+    "predicted_change": false,
+    "score": 0.3,
+    "features_changed": {
+      "nameserver_category": true,
+      "dnssec": true,
+      "country": false
+    },
+    "first_date": "2025-03-13",
+    "last_date": "2025-06-18"
+  },
+  {
+    "domain": "una.ac.cr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-06-21",
+    "last_date": "2025-10-16"
+  },
+  {
+    "domain": "uzivobeograd.rs",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-12-04",
+    "last_date": "2025-12-04"
+  },
+  {
+    "domain": "vegagerdin.is",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-06-24",
+    "last_date": "2025-06-17"
+  },
+  {
+    "domain": "vejdirektoratet.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-19",
+    "last_date": "2025-09-08"
+  },
+  {
+    "domain": "videoprobki.ua",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-09-03",
+    "last_date": "2025-10-03"
+  },
+  {
+    "domain": "vistalive.it",
+    "predicted_change": false,
+    "score": 0.25,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-06-12",
+    "last_date": "2025-08-20"
+  },
+  {
+    "domain": "weathercamnetwork.com.au",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-04-30",
+    "last_date": "2024-08-06"
+  },
+  {
+    "domain": "webcamsallad.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-12-02",
+    "last_date": "2025-07-24"
+  },
+  {
+    "domain": "weebly.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-29",
+    "last_date": "2025-03-29"
+  },
+  {
+    "domain": "wlu.edu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-06-04",
+    "last_date": "2025-01-15"
+  },
+  {
+    "domain": "yankeecandle.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2025-04-19",
+    "last_date": "2025-12-15"
+  },
+  {
+    "domain": "yunfengdie.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-10-06",
+    "last_date": "2025-09-16"
+  },
+  {
+    "domain": "zehus.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-04-25",
+    "last_date": "2025-04-25"
+  },
+  {
+    "domain": "zendesk.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-04-15",
+    "last_date": "2025-08-04"
+  },
+  {
+    "domain": "126.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-29",
+    "last_date": "2024-08-02"
+  },
+  {
+    "domain": "aiweiwang.cn",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": true,
+      "dnssec": false
+    },
+    "first_date": "2024-02-22",
+    "last_date": "2025-06-20"
+  },
+  {
+    "domain": "alfa.it",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-08-14",
+    "last_date": "2025-12-14"
+  },
+  {
+    "domain": "atlassian.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-08-02",
+    "last_date": "2025-02-15"
+  },
+  {
+    "domain": "avistar.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-27",
+    "last_date": "2025-08-21"
+  },
+  {
+    "domain": "baili.lv",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {},
+    "first_date": "2024-03-17",
+    "last_date": "2025-12-22"
+  },
+  {
+    "domain": "bergerholding.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-04-24",
+    "last_date": "2025-06-18"
+  },
+  {
+    "domain": "blogspot.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-08-02",
+    "last_date": "2025-06-29"
+  },
+  {
+    "domain": "bowdoin.edu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-06-04",
+    "last_date": "2025-09-16"
+  },
+  {
+    "domain": "comunemelfi.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-08-30",
+    "last_date": "2025-09-14"
+  },
+  {
+    "domain": "comwatt.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-04-23"
+  },
+  {
+    "domain": "continental-tires.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-29",
+    "last_date": "2025-01-02"
+  },
+  {
+    "domain": "corfu-info.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-08-07",
+    "last_date": "2025-11-12"
+  },
+  {
+    "domain": "cres-activa.hr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-09-14",
+    "last_date": "2025-08-30"
+  },
+  {
+    "domain": "designsmart.com.tw",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "registration_service_provider": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-07-03",
+    "last_date": "2024-12-29"
+  },
+  {
+    "domain": "doordeck.com",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-01-31",
+    "last_date": "2026-01-04"
+  },
+  {
+    "domain": "drivehq.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-08",
+    "last_date": "2025-12-29"
+  },
+  {
+    "domain": "dyndns-ip.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-08-02",
+    "last_date": "2025-04-15"
+  },
+  {
+    "domain": "ecorodovias.com.br",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-05-09",
+    "last_date": "2025-03-20"
+  },
+  {
+    "domain": "esbrasil.com.br",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-03-06",
+    "last_date": "2024-03-27"
+  },
+  {
+    "domain": "familonidis.io",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2025-06-09",
+    "last_date": "2025-12-15"
+  },
+  {
+    "domain": "finnmarken.info",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-21",
+    "last_date": "2025-11-29"
+  },
+  {
+    "domain": "for-adventure.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-10-04",
+    "last_date": "2025-10-19"
+  },
+  {
+    "domain": "gdbs.gov.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-27",
+    "last_date": "2025-06-22"
+  },
+  {
+    "domain": "geenet.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-18",
+    "last_date": "2025-06-13"
+  },
+  {
+    "domain": "glxtek.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-06-16",
+    "last_date": "2025-09-17"
+  },
+  {
+    "domain": "greeceweather.us",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-03",
+    "last_date": "2025-03-26"
+  },
+  {
+    "domain": "greenpeace.org",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-05-06",
+    "last_date": "2025-05-05"
+  },
+  {
+    "domain": "heishin.jp",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-05-31",
+    "last_date": "2025-05-31"
+  },
+  {
+    "domain": "heng666.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-09-27",
+    "last_date": "2025-09-10"
+  },
+  {
+    "domain": "hotelmichaela.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-06",
+    "last_date": "2025-11-22"
+  },
+  {
+    "domain": "hrecos.org",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-04-08",
+    "last_date": "2025-08-13"
+  },
+  {
+    "domain": "hvar-apartment.net",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-01",
+    "last_date": "2025-12-29"
+  },
+  {
+    "domain": "hvmm-licht.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-27",
+    "last_date": "2025-01-27"
+  },
+  {
+    "domain": "ihas.com.au",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-06-01",
+    "last_date": "2025-06-06"
+  },
+  {
+    "domain": "ikangtai.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-03-19",
+    "last_date": "2025-03-08"
+  },
+  {
+    "domain": "infoviaggiando.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-09-12",
+    "last_date": "2025-09-27"
+  },
+  {
+    "domain": "ingemmet.gob.pe",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-08-02"
+  },
+  {
+    "domain": "iotashome.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-01-16",
+    "last_date": "2025-01-15"
+  },
+  {
+    "domain": "iotleg.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-01-01",
+    "last_date": "2026-01-01"
+  },
+  {
+    "domain": "isemall.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-10-07",
+    "last_date": "2025-09-17"
+  },
+  {
+    "domain": "jokkmokk.jp",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-02-09",
+    "last_date": "2026-01-01"
+  },
+  {
+    "domain": "kblvejr.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-25",
+    "last_date": "2025-09-10"
+  },
+  {
+    "domain": "laesoe-vejr.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-06-23",
+    "last_date": "2025-09-10"
+  },
+  {
+    "domain": "lejoybot.com",
+    "predicted_change": true,
+    "score": 0.55,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": true,
+      "country": true
+    },
+    "first_date": "2024-01-11",
+    "last_date": "2025-11-10"
+  },
+  {
+    "domain": "lenovo.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-08-05",
+    "last_date": "2025-08-05"
+  },
+  {
+    "domain": "luzhenyu.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-06-21",
+    "last_date": "2025-06-16"
+  },
+  {
+    "domain": "mazuma.co.th",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-08-04",
+    "last_date": "2025-07-14"
+  },
+  {
+    "domain": "meteoliariis.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-05-21",
+    "last_date": "2025-06-05"
+  },
+  {
+    "domain": "mlnapi.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-11-23",
+    "last_date": "2025-11-23"
+  },
+  {
+    "domain": "msiwoc.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-05-03",
+    "last_date": "2025-12-17"
+  },
+  {
+    "domain": "myhealthfeed.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-05-24",
+    "last_date": "2024-07-07"
+  },
+  {
+    "domain": "nokia.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-05-31",
+    "last_date": "2025-11-20"
+  },
+  {
+    "domain": "ntu.edu.sg",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-08-23"
+  },
+  {
+    "domain": "nuralogix.ai",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-01-27",
+    "last_date": "2025-11-26"
+  },
+  {
+    "domain": "nvk.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-17",
+    "last_date": "2025-09-08"
+  },
+  {
+    "domain": "objectivepartners.com",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": true,
+      "country": false
+    },
+    "first_date": "2024-07-23",
+    "last_date": "2025-12-29"
+  },
+  {
+    "domain": "origins-china.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-12-18",
+    "last_date": "2025-09-07"
+  },
+  {
+    "domain": "plymouth.edu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-08",
+    "last_date": "2025-08-12"
+  },
+  {
+    "domain": "ponteacco.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-08-08",
+    "last_date": "2025-08-23"
+  },
+  {
+    "domain": "positivocasainteligente.com.br",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-09-02",
+    "last_date": "2025-08-21"
+  },
+  {
+    "domain": "praha.eu",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-04-23"
+  },
+  {
+    "domain": "pregbuddy.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-08-26",
+    "last_date": "2025-11-10"
+  },
+  {
+    "domain": "pyx-ic.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-09-12",
+    "last_date": "2025-09-12"
+  },
+  {
+    "domain": "qcloud.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-08",
+    "last_date": "2024-08-20"
+  },
+  {
+    "domain": "qut.edu.au",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-06-03",
+    "last_date": "2025-08-25"
+  },
+  {
+    "domain": "radiosajnet.com.br",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-05-14",
+    "last_date": "2025-05-31"
+  },
+  {
+    "domain": "roskildeskiklub.dk",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2025-01-08",
+    "last_date": "2025-09-11"
+  },
+  {
+    "domain": "sanmarcoargentano.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-23",
+    "last_date": "2025-04-07"
+  },
+  {
+    "domain": "sap.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-11-18",
+    "last_date": "2025-01-14"
+  },
+  {
+    "domain": "selfhost.eu",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-12-26"
+  },
+  {
+    "domain": "senya.fr",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-06-11",
+    "last_date": "2025-07-31"
+  },
+  {
+    "domain": "servicewise.net.cn",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": true,
+      "dnssec": false
+    },
+    "first_date": "2024-03-16",
+    "last_date": "2025-03-09"
+  },
+  {
+    "domain": "sierramarina.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2025-11-19",
+    "last_date": "2025-11-19"
+  },
+  {
+    "domain": "sigulda.lv",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-03-18",
+    "last_date": "2025-12-31"
+  },
+  {
+    "domain": "slackers.ma",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-08-25",
+    "last_date": "2025-08-28"
+  },
+  {
+    "domain": "smartdevices.com.cn",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "dnssec": false
+    },
+    "first_date": "2025-03-12",
+    "last_date": "2025-09-09"
+  },
+  {
+    "domain": "smartview3.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-18",
+    "last_date": "2025-12-24"
+  },
+  {
+    "domain": "split-airport.hr",
+    "predicted_change": false,
+    "score": 0.05,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": true
+    },
+    "first_date": "2024-07-23",
+    "last_date": "2025-12-09"
+  },
+  {
+    "domain": "sunfoot.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-07-04",
+    "last_date": "2025-09-16"
+  },
+  {
+    "domain": "swellnet.com.au",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true
+    },
+    "first_date": "2024-02-08",
+    "last_date": "2025-12-10"
+  },
+  {
+    "domain": "sybase.com",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-10-31",
+    "last_date": "2025-12-19"
+  },
+  {
+    "domain": "sydneycitywebcam.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-02",
+    "last_date": "2025-11-27"
+  },
+  {
+    "domain": "timanetwork.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-10-04",
+    "last_date": "2025-09-16"
+  },
+  {
+    "domain": "touchngo.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-19",
+    "last_date": "2025-05-14"
+  },
+  {
+    "domain": "turismofriuliveneziagiulia.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-05-20",
+    "last_date": "2025-11-01"
+  },
+  {
+    "domain": "unam.mx",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-27",
+    "last_date": "2025-03-27"
+  },
+  {
+    "domain": "velohero.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-10-14",
+    "last_date": "2025-11-25"
+  },
+  {
+    "domain": "webcamlive.cz",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-09-13",
+    "last_date": "2024-12-11"
+  },
+  {
+    "domain": "zhibocloud.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-03-18",
+    "last_date": "2025-03-12"
+  },
+  {
+    "domain": "zlatibor.rs",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-03-04",
+    "last_date": "2025-12-02"
+  },
+  {
+    "domain": "alibaba-inc.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "reseller": false,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-07-05",
+    "last_date": "2025-12-05"
+  },
+  {
+    "domain": "brandnertal.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-12-14"
+  },
+  {
+    "domain": "caribbeanresort.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2025-12-06",
+    "last_date": "2025-12-06"
+  },
+  {
+    "domain": "cdninstagram.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-03-11",
+    "last_date": "2025-05-28"
+  },
+  {
+    "domain": "citrixworkspacesapi.net",
+    "predicted_change": false,
+    "score": 0.1,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": true,
+      "country": false
+    },
+    "first_date": "2024-07-03",
+    "last_date": "2025-08-15"
+  },
+  {
+    "domain": "edis.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-20",
+    "last_date": "2025-12-19"
+  },
+  {
+    "domain": "feratel.com",
+    "predicted_change": false,
+    "score": 0.35,
+    "features_changed": {
+      "reseller": true,
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-07-03",
+    "last_date": "2024-10-16"
+  },
+  {
+    "domain": "jaegeralpe.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-03",
+    "last_date": "2025-12-14"
+  },
+  {
+    "domain": "medves.si",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-03-10"
+  },
+  {
+    "domain": "mirise-inc.jp",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false
+    },
+    "first_date": "2024-11-30",
+    "last_date": "2025-11-30"
+  },
+  {
+    "domain": "myqcloud.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-04-08",
+    "last_date": "2024-08-20"
+  },
+  {
+    "domain": "osmer.fvg.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-27",
+    "last_date": "2025-04-18"
+  },
+  {
+    "domain": "ptttutorials.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2024-05-03",
+    "last_date": "2025-12-17"
+  },
+  {
+    "domain": "temporal-wave.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2025-02-06",
+    "last_date": "2025-02-06"
+  },
+  {
+    "domain": "thespruceeats.com",
+    "predicted_change": false,
+    "score": 0.25,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-02-10",
+    "last_date": "2025-08-20"
+  },
+  {
+    "domain": "tirol.gv.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-03-20",
+    "last_date": "2025-12-10"
+  },
+  {
+    "domain": "zevs.si",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-03-19",
+    "last_date": "2025-03-09"
+  },
+  {
+    "domain": "asfinag.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-03-21",
+    "last_date": "2025-12-12"
+  },
+  {
+    "domain": "aui.ma",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-11-27",
+    "last_date": "2025-11-27"
+  },
+  {
+    "domain": "beecloud.cn",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "registrar": false,
+      "dnssec": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-06-22"
+  },
+  {
+    "domain": "bell.ca",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "state_province": false,
+      "dnssec": false,
+      "country": false
+    },
+    "first_date": "2025-08-25",
+    "last_date": "2025-11-13"
+  },
+  {
+    "domain": "bludenz.at",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "country": false
+    },
+    "first_date": "2024-03-22",
+    "last_date": "2025-12-17"
+  },
+  {
+    "domain": "cbslocal.com",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false,
+      "country": false
+    },
+    "first_date": "2024-07-27",
+    "last_date": "2025-07-27"
+  },
+  {
+    "domain": "christysmotel.com",
+    "predicted_change": false,
+    "score": 0.25,
+    "features_changed": {
+      "nameserver_category": true,
+      "registrar": false,
+      "state_province": false,
+      "country": false
+    },
+    "first_date": "2024-03-13",
+    "last_date": "2025-02-03"
+  },
+  {
+    "domain": "cisartrieste.it",
+    "predicted_change": false,
+    "score": 0.0,
+    "features_changed": {
+      "nameserver_category": false,
+      "registrar": false
+    },
+    "first_date": "2024-06-11",
+    "last_date": "2025-06-26"
+  }
+]
