@@ -30,14 +30,6 @@ fetched data or re-derive the simplified cache yourself if you want to;
 everything downstream of it (the actual ownership-change scoring/
 validation) needs no WhoisXMLAPI credits either way.
 
-**Verified:** stages 2-4 (`simplify_dataset.py` → `ownership_change_analysis.py`
-→ `convert_results_to_csv.py`) were rerun from scratch, starting only from
-`whois_history_cache.json`, in an isolated copy of this directory, and
-produced byte-for-byte identical output to every file checked into
-`results/`. `verifiable_domains.py` and `diagnosis.py` were also run
-end-to-end without errors. `analysis_v2.py` had a real bug — see below —
-which is now fixed and verified.
-
 ## Pipeline
 
 1. `whois_api_client.py` — fetches historical WHOIS records for a set of
@@ -232,16 +224,6 @@ rates, temporal (years-span) breakdowns, and publication-quality plots
 (saved under `results/analysis_output/`, created automatically), plus a
 `summary_statistics.json`. `analysis.ipynb` is the notebook version of the
 same analysis. Requires `pandas`, `matplotlib`, `seaborn`, `numpy`.
-
-**Bug fixed:** the script generated all 8 plots correctly but crashed on
-its very last step — writing `summary_statistics.json` — because some
-values in the summary dict are numpy `int64`/`float64` (from pandas
-`.value_counts()`/`.groupby()`) and one nested dict has tuple keys (from
-`df.groupby(['confidence', 'changed'])`), neither of which `json.dump()`
-can serialize. Added a recursive sanitizer (`json_safe()`) that converts
-numpy scalars to native Python types and stringifies non-string dict keys
-before dumping. Verified: reran end-to-end, all 8 plots plus a valid
-`summary_statistics.json` are now produced.
 
 ## `results/apps_with_changed_domain_ownership_contact.md`
 

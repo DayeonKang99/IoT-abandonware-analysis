@@ -72,13 +72,10 @@ app); it also does a bit more, extracting per-app unique registered domains
 and IPs from the merged data
 (`results/unique_app_domains*.json`) — that part is optional and not
 required for `url_analysis.py` itself. Run it from inside
-`blocklist-analysis/` (`python url_domains_extractor.py`); it already
-points at `urls/` and will re-merge/re-write `urls_merged.json` (a no-op
-merge of the single file, harmless) and populate `results/unique_app_domains*.json`.
-**Tested:** ran end-to-end against a 200-app slice — completed cleanly and
-produced all four expected output files. If you're given the 5 batch files
-again and want to reconstruct `urls_merged.json` from them instead, point
-`apps_urls` at the directory containing them.
+`blocklist-analysis/` (`python url_domains_extractor.py`); it points at
+`urls/` and will populate `results/unique_app_domains*.json`. If you have
+the 5 batch files and want to reconstruct `urls_merged.json` from them
+directly, point `apps_urls` at the directory containing them.
 
 ## Blocklists
 
@@ -112,18 +109,14 @@ python url_analysis.py \
 
 These are also the script's defaults (`--output-dir` defaults to
 `results/` — use a different one as above if you don't want to overwrite
-the reference run already there, see below). The script will interactively
-prompt `Proceed to scan... (y/n)` (and again for `--resume`) before it
-starts — that's a manual confirmation left in by the original author for
-large runs, not a bug.
+the included reference run, see below). The script prompts for
+confirmation (`Proceed to scan... (y/n)`, and again for `--resume`) before
+it starts — this is expected behavior, not an error.
 
-**Tested:** ran end-to-end against a 200-app slice of `urls_merged.json`
-(16,805 URLs) with the real blocklists — completed cleanly and produced a
-`results.csv` in the schema documented under Output below. At ~55-60
-URLs/sec/worker, the full 8.56M-URL corpus should take roughly 6-8 hours
-with `--workers 24` on typical hardware. You'll also see a harmless
-`datetime.utcnow() is deprecated` warning on Python 3.12+; it doesn't
-affect the output.
+At roughly 55-60 URLs/sec/worker, scanning the full 8.56M-URL corpus takes
+about 6-8 hours with `--workers 24` on typical hardware. On Python 3.12+
+you may see a `datetime.utcnow() is deprecated` warning; it doesn't affect
+the output.
 
 ## Output
 
@@ -183,31 +176,31 @@ python url-haus-malicious-url-detector.py
 python allchecks.py
 ```
 
-**Tested:** ran all three end-to-end against a 200-app slice —
-`check_oisd_blocklist.py` and `url-haus-malicious-url-detector.py`
-completed in seconds. `allchecks.py` originally had a `time.sleep(1)`
-after *every* URL's URLhaus check even though that check is a pure local
-set lookup with nothing to rate-limit — at 1 URL/sec that made even this
-200-app slice's ~7,260 unique URLs a ~2-hour run, and the full corpus would
-have taken months. Removed that sleep (rate limiting still applies to the
-commented-out VirusTotal/GSB calls, which are genuinely rate-limited APIs);
-the slice now finishes in ~4 seconds.
+`check_oisd_blocklist.py` and `url-haus-malicious-url-detector.py` run
+against purely local/cached data and complete in seconds. `allchecks.py`'s
+ad-network + URLhaus checks (the only ones enabled by default) run in
+roughly the same time; only the optional Google Safe Browsing / VirusTotal
+lookups below are rate-limited.
 
-### API keys — do not hardcode them
+### Using the optional Google Safe Browsing / VirusTotal lookups
 
-`allchecks.py` reads `GOOGLE_SAFE_BROWSING_API_KEY` and
-`VIRUSTOTAL_API_KEY` from the environment (they default to empty, and the
-GSB/VT lookups are commented out in `main()` regardless — only the
-ad-network + URLhaus checks run by default). **A previous copy of this
-file had two live keys hardcoded** (a Google Safe Browsing key and a
-VirusTotal key) — they've been removed here, but if those keys were ever
-committed or shared anywhere else, treat them as compromised and rotate
-them in the Google Cloud / VirusTotal consoles. To use these lookups,
-export your own keys instead:
+`allchecks.py` has Google Safe Browsing and VirusTotal lookups built in,
+commented out in `main()` by default. To enable them, get your own API
+keys and set them as environment variables (never hardcode a key in the
+script itself):
 
 ```bash
 export GOOGLE_SAFE_BROWSING_API_KEY="..."
 export VIRUSTOTAL_API_KEY="..."
 ```
 
-and uncomment the relevant blocks in `allchecks.py`'s `main()`.
+then uncomment the relevant blocks in `allchecks.py`'s `main()`. To obtain
+keys:
+
+- **Google Safe Browsing API**: follow Google's setup guide at
+  https://developers.google.com/safe-browsing/v4/get-started to create a
+  project and generate an API key.
+- **VirusTotal API**: create a free account at
+  [virustotal.com](https://www.virustotal.com/) and find your API key at
+  https://www.virustotal.com/gui/my-apikey (see
+  https://docs.virustotal.com/ for full API documentation and rate limits).
