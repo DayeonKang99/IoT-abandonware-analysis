@@ -254,7 +254,7 @@ jupyter notebook src/cve-search/plot-cve-analysis.ipynb
 
 ### At-Risk Domain Analysis
 
-The four scripts below form a pipeline that extracts static URLs from decompiled source code, resolves the unique domains, and classifies them as reachable or unreachable.
+This pipeline extracts static URLs from decompiled source code, resolves the unique domains, classifies them as reachable or unreachable (Steps 1.1–1.4 below), checks them against category blocklists, and flags domains that appear to have changed ownership since the app was last updated (Steps 1.5–1.6).
 
 #### Step 1.1 — Extract URLs and Sensor References
 
@@ -317,6 +317,26 @@ Aggregates the per-app reachability JSON files from Step 1.3 and enriches each e
 |---|---|
 | `INPUT_DIR` | Directory of per-app reachability results from Step 1.3 |
 | `OUTPUT_DIR` | Directory to store the aggregated output |
+
+#### Step 1.5 — Blocklist Matching
+
+```bash
+python src/blocklist-analysis/url_analysis.py
+```
+
+Checks every extracted URL (Step 1.1's output, merged into one corpus) against category blocklists — ads, malware, spyware, phishing, spam, tracking, scams, and suspicious — to flag apps that embed known-risky domains. A supplementary `malicious-checks/` sub-pipeline cross-checks the same URLs against the OISD and URLhaus blocklists and a live ad-network list.
+
+See [`src/blocklist-analysis/README.md`](src/blocklist-analysis/README.md) for setup, exact commands, and the included full reference run.
+
+#### Step 1.6 — Domain Ownership Change Detection
+
+```bash
+python src/domain-change-analysis/ownership_change_analysis.py
+```
+
+Uses WHOIS history (via the WhoisXMLAPI *WHOIS History* API) to detect whether a domain referenced by an app has changed ownership since the app was last updated — a signal that the app may now point at a re-registered, parked, or seized domain. Ground truth comes from non-redacted registrant fields where available; the detection algorithm itself relies only on GDPR-compliant proxy signals (registrar, nameserver behavior, DNSSEC, etc.), so it still works once registrant info is redacted.
+
+See [`src/domain-change-analysis/README.md`](src/domain-change-analysis/README.md) for setup, exact commands, and included reference data — reproducing the reported results does not require a WhoisXMLAPI key.
 
 ---
 
