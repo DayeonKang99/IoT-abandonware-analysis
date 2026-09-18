@@ -397,7 +397,10 @@ Outputs a severity-annotated JSON file and a distribution bar chart saved as PDF
 
 
 ## IoTFlow
-Clone IoTFlow repository under the `src/iotflow/` folder.
+
+**Prerequisite**: 
+- Install [Docker](https://docs.docker.com/engine/install/).
+- Clone IoTFlow repository under the `src/iotflow/` folder.
 
 ```bash
 git clone https://github.com/SecPriv/iotflow.git
@@ -410,9 +413,10 @@ cp vsa_analysis.py VSA/docker/
 2. Add `apk` files to the folder `apps_to_analyze/`
 3. `docker compose up`
 4. Results will be placed into `results/`
-5. Run flow analysis script `python flowanalysis.py`
-6. Copy the analysis script output to `/src/iotflow/plot-codes`
-7. You can draw the plot with `plot-flowanalysis.ipynb`
+5. Change the total number of apps, variable `app_num`, in the flow analysis script `flowanalysis.py` according to the final numbers that IoTFlow reverse-engineered
+6. Run flow analysis script `python flowanalysis.py`
+7. Copy the analysis script output to `/src/iotflow/plot-codes`
+8. You can draw the plot with `plot-flowanalysis.ipynb`
 
 ### Cryptographic Analysis
 1. `cd VSA/docker`

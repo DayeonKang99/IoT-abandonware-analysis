@@ -811,9 +811,9 @@ if __name__=="__main__":
     icc_sinks = get_icc_sinks(path_bl_run_config)
     icc_sinks_methods = get_only_method_list(icc_sinks)
 
-    general_local: List[FlowDroidRun] = parse_local_dataset("../docker/results")
-    general_bl: List[FlowDroidRun] = parse_bl_dataset("../docker/results")
-    general_general: List[FlowDroidRun] = parse_general_dataset("../docker/results")
+    general_local: List[FlowDroidRun] = parse_local_dataset("./docker/results")
+    general_bl: List[FlowDroidRun] = parse_bl_dataset("./docker/results")
+    general_general: List[FlowDroidRun] = parse_general_dataset("./docker/results")
 
     analyzed_gp_local = analyze_dataset(general_local)
 
