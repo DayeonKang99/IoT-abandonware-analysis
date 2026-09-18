@@ -1,4 +1,1 @@
-src/blocklist-analysis/urls/urls_merged.json filter=lfs diff=lfs merge=lfs -text
-src/blocklist-analysis/results/results.csv filter=lfs diff=lfs merge=lfs -text
-src/domain-change-analysis/results/whois_history_cache.json filter=lfs diff=lfs merge=lfs -text
-src/domain-change-analysis/results/whois_history_results.json filter=lfs diff=lfs merge=lfs -text
+lfs-test/*.bin filter=lfs diff=lfs merge=lfs -text
