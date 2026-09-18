@@ -77,6 +77,7 @@ Checks the current Play Store status of each IoT app using [google-play-scraper]
 - its **last update date** is more than 730 days before the collection date (March 2025).
 
 Output is written to `app_obsolete_flags.csv`. After filtering, the final dataset contains **61,500 abandoned IoT companion apps**.
+
 ⚠️ This number can be different because we configured the dataset with an AndroZoo snapshot in March 2025. 
 
 ---
@@ -121,7 +122,133 @@ Before running any script, update the path variables at the top of each file to 
 
 ### Outdated Dependencies Analysis
 
-See [CVE Search](#cve-search).
+This pipeline identifies libraries bundled in each decompiled APK and cross-references them against the National Vulnerability Database (NVD) to flag CVEs published after the app's last update. All scripts are in `src/cve-search/`.
+
+Install required packages:
+```bash
+pip install ijson nvdlib packaging tqdm requests
+```
+
+---
+
+#### Step 0 — Download NVD JSON Feeds (Offline Path Only)
+
+Download the NVD JSON data feeds from:
+
+> **https://nvd.nist.gov/vuln/data-feeds**
+
+Download all available annual JSON feed files (e.g., `nvdcve-2.0-2002.json` through `nvdcve-2.0-modified.json`) and place them in a single directory (e.g., `nvd-feeds/`). These feeds are required by `nvd_db_build.py` to build the local search index.
+
+⚠️ Since the current JSON feed files were updated on September 18, 2026, the analysis pipeline may not reproduce the same result as the paper because we downloaded the JSON feed files before August 1, 2026.
+
+#### Step 1 — Build the Local NVD Database (Offline Path Only)
+
+```bash
+python src/cve-search/nvd_db_build.py
+```
+
+Ingests all NVD JSON feed files from the directory specified above and builds a local SQLite database (`nvd_local.db`) with two tables:
+
+- `cves` — stores each CVE's ID, published date, and full JSON payload
+- `cve_search` — an FTS5 full-text search virtual table indexed on CVE ID and English description
+
+Files are parsed using `ijson` for memory-efficient streaming. Update `nvd_folder` and `db_path` in the script before running.
+
+| Variable | Description |
+|---|---|
+| `nvd_folder` | Path to the directory containing downloaded NVD JSON feed files |
+| `db_path` | Output path for the SQLite database (e.g., `nvd_local.db`) |
+
+#### Step 2 — Extract Bundled Library Names from Decompiled APKs
+
+```bash
+python src/cve-search/cve_lib_parsing.py
+```
+
+Scans the resource directories of each decompiled APK to extract bundled library names and their versions (inferred from subdirectory structure and `BuildConfig.java` files). Outputs a list of `library_name,version` pairs per app for CVE lookup.
+
+Set the following before running:
+
+| Variable | Description |
+|---|---|
+| `jadx_output_file` | Path to a text file listing the app directories to process |
+
+> **Offline path**: Leave the API key empty. The library names extracted here are used as input to `cve_search_offline.py` in the next step.
+
+#### Step 3 — Search CVEs Offline (Offline Path Only)
+
+```bash
+python src/cve-search/cve_search_offline.py
+```
+
+Reads a shard of library names (format: `library_name,version` or `library_name` per line) and searches the local SQLite FTS5 database from Step 1 for matching CVE entries. Performs version-aware filtering using `packaging.version` to confirm whether the library version falls within the CVE's affected range. Runs parallel SQLite read queries across up to `MAX_WORKERS` threads.
+
+For large datasets, split the library list into multiple shard files and run this script once per shard in parallel (e.g., across multiple machines or processes). Each run produces one output shard (e.g., `output/libraries_with_cves_00.json`).
+
+| Variable | Description |
+|---|---|
+| `DB_PATH` | Path to the SQLite database from Step 1 |
+| `LIBRARIES_FILE` | Path to the shard input file (one `name,version` per line) |
+| `OUTPUT_JSON` | Output path for this shard's CVE results |
+| `MAX_WORKERS` | Number of parallel SQLite reader threads (default: 10) |
+
+#### Step 4 — Merge CVE Search Shards into a Library Directory
+
+```bash
+python src/cve-search/generate_lib_dir.py
+```
+
+Merges all per-shard JSON output files from Step 3 (matched by `swarm-output/libraries_with_cves_*.json`) into a single consolidated `lib_dir.json`. When the same library name appears in multiple shards, a rank-based conflict resolution rule is applied:
+
+| Rank | Meaning |
+|---|---|
+| 2 | Searched; CVEs found |
+| 1 | Searched; confirmed zero CVEs |
+| 0 | Heuristically skipped; status unknown |
+
+The highest-rank entry is kept per library name. Update `SHARD_FILES` to match your shard file paths before running.
+
+#### Step 5 — Attach CVEs to Per-App Library Data
+
+```bash
+python src/cve-search/merge_data.py
+```
+
+Joins `lib_dir.json` (from Step 4) with per-app parsed library data files (`parsed_libraries_0{N}.json` from Step 2) to produce a final dataset where each app's bundled libraries are annotated with their matching CVE records. Libraries absent from `lib_dir.json` are flagged as `failed`; heuristically skipped entries are flagged as `skipped_kept`. The merged output is used for the CVE severity analysis and figures in the paper.
+
+Update the input/output file paths at the top of the script before running.
+
+#### Step 6 — Count and Classify CVEs by Confidence
+
+```bash
+python src/cve-search/create_cve_count.py
+```
+
+Reads the merged per-app library data from Step 5 (`./final-output/parsed_libraries_*.json`) using `ijson` for memory-efficient streaming across multiple shards. For each app, performs version-aware CVE matching using `packaging.version` and classifies each CVE-library association by confidence level. Produces two output files:
+
+| Output File | Description |
+|---|---|
+| `cve_analysis_count.jsonl` | Per-app CVE counts annotated with confidence levels |
+| `confirmed_outdated_libraries.jsonl` | Library entries confirmed as outdated (CVE published after app's last update date) |
+
+Configure the following variables before running:
+
+| Variable | Description |
+|---|---|
+| `INPUT_FILES` | Glob pattern matching the merged shard files from Step 5 (default: `./final-output/parsed_libraries_*.json`) |
+| `output` | Output path for the per-app CVE count results |
+| `confirmed_outdated_output` | Output path for confirmed outdated library records |
+
+> **Note**: If shard filenames or ordering are not consistent via glob, replace `INPUT_FILES` with an explicit list (see the commented-out example in the script).
+
+#### Step 7 — Plot CVE Analysis Results
+
+Open and run `src/cve-search/plot-cve-analysis.ipynb` in Jupyter Notebook to reproduce the CVE severity distribution figures from the paper.
+
+```bash
+jupyter notebook src/cve-search/plot-cve-analysis.ipynb
+```
+
 
 ---
 
