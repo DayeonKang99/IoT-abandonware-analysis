@@ -1,0 +1,251 @@
+domain,changed,confidence,reason,first_date,last_date,years_span
+firebaseio.com,False,high,Organization unchanged,2024-09-14,2025-09-13,1.0
+dynalias.com,False,high,Organization and email domain unchanged,2024-08-02,2025-01-12,0.45
+akita-airport.com,False,high,Organization unchanged,2024-03-15,2025-07-21,1.35
+autodesk.com,False,high,Organization unchanged,2024-07-29,2025-09-19,1.14
+cloudfront.net,False,high,Organization and email domain unchanged,2024-01-31,2025-01-31,1.0
+dragosfotescu.com,False,high,Organization and email domain unchanged,2024-04-27,2025-11-24,1.58
+10086.cn,False,medium,Email domain unchanged,2024-06-26,2025-06-16,0.97
+163.com,False,high,Organization unchanged,2024-04-08,2025-08-04,1.32
+511mt.net,False,high,Organization and email domain unchanged,2024-10-15,2025-10-14,0.99
+accesscontrolsolutionsinc.com,False,low,Name unchanged (low confidence),2024-09-29,2024-09-29,0.0
+airport-dubrovnik.hr,False,medium,Email domain unchanged,2024-10-20,2025-09-28,0.94
+alicdn.com,False,low,Name unchanged (low confidence),2024-11-08,2025-12-05,1.07
+aliyuncs.com,False,low,Name unchanged (low confidence),2024-02-16,2025-12-17,1.83
+amazonaws.com,False,high,Organization and email domain unchanged,2024-01-29,2025-08-04,1.51
+andre.si,False,low,Name unchanged (low confidence),2024-07-01,2025-06-21,0.97
+anymote.io,False,high,Organization unchanged,2024-01-27,2025-01-27,1.0
+arresoe-weather.dk,False,low,Name unchanged (low confidence),2024-09-30,2025-09-07,0.93
+autoroutes.fr,False,high,Organization and email domain unchanged,2024-11-06,2025-11-06,1.0
+azure-api.net,False,high,Organization unchanged,2024-01-05,2025-11-11,1.85
+azurewebsites.net,False,high,Organization and email domain unchanged,2024-12-23,2025-12-23,1.0
+baidu.com,True,high,Organization changed,2025-03-25,2025-04-08,0.04
+bas.ac.uk,False,low,Name unchanged (low confidence),2025-09-14,2025-11-02,0.13
+bike24.com,False,high,Organization and email domain unchanged,2024-01-03,2025-12-15,1.95
+bocasurfcam.com,False,low,Name unchanged (low confidence),2024-11-17,2024-11-17,0.0
+bohinj-park-hotel.si,False,low,Name unchanged (low confidence),2024-03-25,2025-01-07,0.79
+cityofadelaide.com.au,False,high,Organization unchanged,2024-01-12,2025-10-22,1.77
+clevelandweather.net,False,medium,Email domain unchanged,2024-10-29,2025-10-29,1.0
+cloudfunctions.net,False,high,Organization unchanged,2024-11-01,2025-11-01,1.0
+cmedhealth.com,False,medium,Email domain unchanged,2024-05-07,2025-06-22,1.12
+co2art.eu,False,low,Name unchanged (low confidence),2024-03-20,2025-12-23,1.76
+comfortlife.me,False,high,Organization unchanged,2024-05-17,2025-05-17,1.0
+comfortlife.net.cn,False,medium,Email domain unchanged,2024-10-05,2025-09-16,0.95
+comunitatvalenciana.com,False,high,Organization unchanged,2024-01-21,2025-07-18,1.49
+controlites.com,True,medium,Email domain changed,2024-02-25,2025-01-24,0.91
+csdnimg.cn,False,medium,Email domain unchanged,2024-10-02,2025-09-12,0.94
+ddsc.org.au,False,high,Organization unchanged,2024-03-16,2024-05-30,0.21
+deg.net,False,high,Organization and email domain unchanged,2024-09-10,2025-10-29,1.13
+didi.si,False,low,Name unchanged (low confidence),2025-07-19,2025-08-22,0.09
+doapps.com,False,high,Organization and email domain unchanged,2024-01-11,2025-01-11,1.0
+dokit.cn,False,medium,Email domain unchanged,2024-06-25,2025-06-18,0.98
+drrp.pe,False,medium,Email domain unchanged,2024-03-18,2025-11-10,1.65
+dyndns.org,False,high,Organization and email domain unchanged,2024-10-20,2025-10-20,1.0
+easym.com.br,False,low,Name unchanged (low confidence),2024-09-23,2025-08-19,0.9
+ecu.edu,False,low,Name unchanged (low confidence),2024-07-03,2025-07-02,1.0
+evalutrac.com,False,low,Name unchanged (low confidence),2024-08-04,2025-05-10,0.76
+feishu.cn,False,low,Name unchanged (low confidence),2024-12-21,2025-09-09,0.71
+fluke.com,False,high,Organization and email domain unchanged,2025-10-27,2025-11-01,0.01
+gatesweather.us,False,medium,Email domain unchanged,2024-04-04,2025-05-14,1.11
+getofficeapp.com,False,high,Organization unchanged,2024-03-08,2025-03-08,1.0
+gmf.fr,True,medium,Organization same but email domain changed,2024-09-17,2025-11-11,1.15
+gov.bc.ca,False,high,Organization unchanged,2024-01-22,2025-10-20,1.74
+herlev-vejret.dk,False,low,Name unchanged (low confidence),2024-03-19,2025-03-12,0.98
+herningweather.dk,False,low,Name unchanged (low confidence),2024-03-20,2025-03-15,0.98
+higashinaruse.com,False,medium,Email domain unchanged,2024-04-02,2025-03-31,0.99
+hik-connect.com,False,high,Organization unchanged,2024-11-13,2025-11-13,1.0
+hilife.sg,False,low,Name unchanged (low confidence),2024-03-22,2025-05-19,1.16
+hirtshals-fyrtaarn.dk,False,low,Name unchanged (low confidence),2024-06-24,2025-09-10,1.21
+hirtshalshavn.dk,False,low,Name unchanged (low confidence),2024-03-19,2025-09-11,1.48
+hotel-mike.com,False,medium,Email domain unchanged,2024-07-17,2025-11-24,1.36
+hoval.com,False,high,Organization unchanged,2024-09-17,2025-11-05,1.13
+huami.cn,False,medium,Email domain unchanged,2024-03-20,2024-12-24,0.76
+ihorn.com.cn,False,medium,Email domain unchanged,2024-07-04,2025-06-21,0.96
+istramet.com,False,high,Organization unchanged,2024-11-26,2025-11-14,0.97
+iwate-u.ac.jp,False,high,Organization unchanged,2024-03-31,2025-03-31,1.0
+izor.hr,False,medium,Email domain unchanged,2024-05-13,2025-05-13,1.0
+jwaq.net,False,medium,Email domain unchanged,2024-09-22,2025-09-22,1.0
+kpax.com,False,high,Organization unchanged,2024-03-28,2025-03-28,1.0
+krtv.com,False,high,Organization unchanged,2024-01-03,2026-01-03,2.0
+ktn.gv.at,False,high,Organization and email domain unchanged,2024-03-23,2025-12-12,1.72
+ktvq.com,False,high,Organization unchanged,2024-05-04,2025-05-04,1.0
+laperlahotel.eu,False,low,Name unchanged (low confidence),2024-03-17,2024-12-19,0.76
+lembergahute.lv,False,low,Name unchanged (low confidence),2024-03-17,2026-01-04,1.8
+litguardian.com,False,insufficient,No comparable ground truth fields,2024-08-01,2025-09-22,1.14
+lnigrado.it,False,high,Organization unchanged,2024-07-21,2025-08-05,1.04
+maaf.fr,False,high,Organization and email domain unchanged,2024-01-22,2025-01-27,1.02
+mccall.id.us,False,high,Organization and email domain unchanged,2024-03-16,2025-06-17,1.25
+mellegers.com,False,high,Organization unchanged,2024-06-15,2025-07-22,1.1
+meteodheure.net,False,medium,Email domain unchanged,2024-02-02,2025-01-23,0.97
+michelin.com,False,high,Organization unchanged,2024-06-17,2025-12-14,1.49
+momentum-cam.com,False,high,Organization and email domain unchanged,2024-09-23,2025-09-23,1.0
+montraker.hr,False,medium,Email domain unchanged,2024-02-25,2025-12-27,1.84
+mysolomio.io,False,high,Organization unchanged,2024-08-06,2025-08-06,1.0
+nativo.net,False,high,Organization unchanged,2024-08-12,2025-08-12,1.0
+nau.edu,False,low,Name unchanged (low confidence),2024-01-08,2025-12-15,1.94
+netdna-ssl.com,False,insufficient,No comparable ground truth fields,2024-07-24,2025-07-29,1.01
+novi-marof.hr,False,medium,Email domain unchanged,2024-09-08,2025-08-09,0.92
+nsk.hr,False,medium,Email domain unchanged,2024-11-26,2025-12-09,1.03
+nsoria.com,False,medium,Email domain unchanged,2024-01-27,2025-12-23,1.91
+nubia.cn,False,medium,Email domain unchanged,2024-06-22,2025-06-15,0.98
+oca.eu,False,low,Name unchanged (low confidence),2024-03-21,2025-09-28,1.52
+ohgo.com,False,medium,Email domain unchanged,2024-03-26,2025-03-26,1.0
+ottosolutions.sg,False,low,Name unchanged (low confidence),2024-03-22,2025-12-22,1.75
+perenio.com,False,medium,Email domain unchanged,2024-05-10,2025-10-13,1.43
+petkit.com,False,low,Name unchanged (low confidence),2024-04-30,2025-02-13,0.79
+petkt.com,False,high,Organization and email domain unchanged,2024-04-23,2025-04-23,1.0
+pfg.dk,False,low,Name unchanged (low confidence),2024-09-30,2025-09-12,0.95
+photophoto.cn,False,medium,Email domain unchanged,2024-06-25,2025-06-19,0.98
+pil.dk,False,low,Name unchanged (low confidence),2025-01-17,2025-09-13,0.65
+pljusak.hr,False,medium,Email domain unchanged,2024-05-06,2025-04-15,0.94
+pornoitaliano.it,True,high,Organization changed,2024-10-25,2025-11-26,1.09
+premiumbikegear.com,False,medium,Email domain unchanged,2024-05-15,2025-12-14,1.58
+protezionecivile.fvg.it,False,high,Organization unchanged,2024-03-27,2025-12-06,1.69
+qq.com,False,high,Organization unchanged,2024-02-26,2025-12-16,1.8
+remezlight.com,True,medium,Email domain changed,2024-07-12,2025-07-11,1.0
+reply.eu,False,low,Name unchanged (low confidence),2024-04-24,2025-08-13,1.3
+securuscctv.com,False,medium,Email domain unchanged,2024-02-29,2025-11-19,1.72
+sedonawebcam.com,False,low,Name unchanged (low confidence),2024-12-22,2025-12-22,1.0
+seven-systems.com.ua,False,low,Name unchanged (low confidence),2024-01-30,2025-01-30,1.0
+sicsas.eu,False,low,Name unchanged (low confidence),2024-03-21,2025-10-23,1.59
+sixpadapp.jp,False,high,Organization unchanged,2024-04-30,2025-04-30,1.0
+skijalistasrbije.rs,False,low,Name unchanged (low confidence),2024-03-11,2025-03-11,1.0
+starspace.lv,False,low,Name unchanged (low confidence),2024-03-17,2025-12-22,1.77
+state.oh.us,False,high,Organization and email domain unchanged,2024-03-22,2025-06-24,1.25
+staums.cn,True,medium,Email domain changed,2024-09-26,2025-11-12,1.13
+sternberk.cz,False,high,Organization unchanged,2024-04-23,2024-12-11,0.64
+tb.cn,False,medium,Email domain unchanged,2024-03-24,2025-03-15,0.97
+touchmark.com,False,low,Name unchanged (low confidence),2024-02-02,2025-02-02,1.0
+trainingbible.com,False,high,Organization unchanged,2024-06-11,2025-11-03,1.39
+trevandsteve.com,False,low,Name unchanged (low confidence),2024-07-03,2025-07-04,1.0
+tv2bornholm.dk,False,low,Name unchanged (low confidence),2025-03-13,2025-06-18,0.27
+una.ac.cr,False,high,Organization and email domain unchanged,2024-06-21,2025-10-16,1.32
+uzivobeograd.rs,False,low,Name unchanged (low confidence),2024-12-04,2025-12-04,1.0
+vegagerdin.is,False,high,Organization and email domain unchanged,2024-06-24,2025-06-17,0.98
+vejdirektoratet.dk,False,low,Name unchanged (low confidence),2024-03-19,2025-09-08,1.47
+videoprobki.ua,False,medium,Email domain unchanged,2024-09-03,2025-10-03,1.08
+vistalive.it,False,high,Organization unchanged,2024-06-12,2025-08-20,1.19
+weathercamnetwork.com.au,False,high,Organization unchanged,2024-04-30,2024-08-06,0.27
+webcamsallad.com,False,high,Organization unchanged,2024-12-02,2025-07-24,0.64
+weebly.com,False,high,Organization and email domain unchanged,2024-03-29,2025-03-29,1.0
+wlu.edu,False,low,Name unchanged (low confidence),2024-06-04,2025-01-15,0.62
+yankeecandle.com,False,high,Organization unchanged,2025-04-19,2025-12-15,0.66
+yunfengdie.cn,False,medium,Email domain unchanged,2024-10-06,2025-09-16,0.94
+zehus.it,False,high,Organization unchanged,2024-04-25,2025-04-25,1.0
+zendesk.com,False,high,Organization unchanged,2024-04-15,2025-08-04,1.3
+126.net,False,high,Organization unchanged,2024-04-29,2024-08-02,0.26
+aiweiwang.cn,True,medium,Email domain changed,2024-02-22,2025-06-20,1.32
+alfa.it,False,high,Organization unchanged,2024-08-14,2025-12-14,1.33
+atlassian.net,False,high,Organization unchanged,2024-08-02,2025-02-15,0.54
+avistar.com,False,high,Organization unchanged,2024-03-27,2025-08-21,1.4
+baili.lv,False,low,Name unchanged (low confidence),2024-03-17,2025-12-22,1.77
+bergerholding.eu,False,low,Name unchanged (low confidence),2024-04-24,2025-06-18,1.15
+blogspot.com,False,high,Organization unchanged,2024-08-02,2025-06-29,0.91
+bowdoin.edu,False,low,Name unchanged (low confidence),2024-06-04,2025-09-16,1.28
+comunemelfi.it,False,high,Organization unchanged,2024-08-30,2025-09-14,1.04
+comwatt.com,False,high,Organization and email domain unchanged,2024-03-22,2025-04-23,1.09
+continental-tires.com,True,high,Organization changed,2024-01-29,2025-01-02,0.93
+corfu-info.com,False,medium,Email domain unchanged,2024-08-07,2025-11-12,1.26
+cres-activa.hr,False,medium,Email domain unchanged,2024-09-14,2025-08-30,0.96
+designsmart.com.tw,False,medium,Email domain unchanged,2024-07-03,2024-12-29,0.49
+doordeck.com,False,high,Organization and email domain unchanged,2024-01-31,2026-01-04,1.93
+drivehq.com,False,high,Organization and email domain unchanged,2024-03-08,2025-12-29,1.81
+dyndns-ip.com,False,high,Organization and email domain unchanged,2024-08-02,2025-04-15,0.7
+ecorodovias.com.br,False,low,Name unchanged (low confidence),2024-05-09,2025-03-20,0.86
+esbrasil.com.br,False,low,Name unchanged (low confidence),2024-03-06,2024-03-27,0.06
+familonidis.io,False,high,Organization unchanged,2025-06-09,2025-12-15,0.51
+finnmarken.info,False,insufficient,No comparable ground truth fields,2024-02-21,2025-11-29,1.77
+for-adventure.it,False,high,Organization unchanged,2024-10-04,2025-10-19,1.04
+gdbs.gov.cn,False,medium,Email domain unchanged,2024-06-27,2025-06-22,0.98
+geenet.eu,False,low,Name unchanged (low confidence),2024-03-18,2025-06-13,1.23
+glxtek.cn,False,medium,Email domain unchanged,2024-06-16,2025-09-17,1.25
+greeceweather.us,False,medium,Email domain unchanged,2024-03-03,2025-03-26,1.06
+greenpeace.org,False,high,Organization unchanged,2024-05-06,2025-05-05,1.0
+heishin.jp,False,high,Organization and email domain unchanged,2024-05-31,2025-05-31,1.0
+heng666.cn,False,medium,Email domain unchanged,2024-09-27,2025-09-10,0.95
+hotelmichaela.com,False,medium,Email domain unchanged,2024-03-06,2025-11-22,1.71
+hrecos.org,True,high,Organization changed,2024-04-08,2025-08-13,1.35
+hvar-apartment.net,False,medium,Email domain unchanged,2024-02-01,2025-12-29,1.91
+hvmm-licht.com,False,high,Organization and email domain unchanged,2024-01-27,2025-01-27,1.0
+ihas.com.au,False,high,Organization unchanged,2024-06-01,2025-06-06,1.01
+ikangtai.cn,False,medium,Email domain unchanged,2024-03-19,2025-03-08,0.97
+infoviaggiando.it,False,high,Organization unchanged,2024-09-12,2025-09-27,1.04
+ingemmet.gob.pe,False,medium,Email domain unchanged,2024-03-21,2025-08-02,1.37
+iotashome.com,False,high,Organization unchanged,2024-01-16,2025-01-15,1.0
+iotleg.com,False,high,Organization and email domain unchanged,2024-01-01,2026-01-01,2.0
+isemall.cn,False,medium,Email domain unchanged,2024-10-07,2025-09-17,0.94
+jokkmokk.jp,False,high,Organization and email domain unchanged,2024-02-09,2026-01-01,1.89
+kblvejr.dk,False,low,Name unchanged (low confidence),2024-09-25,2025-09-10,0.96
+laesoe-vejr.dk,False,low,Name unchanged (low confidence),2024-06-23,2025-09-10,1.22
+lejoybot.com,True,low,Name changed (low confidence),2024-01-11,2025-11-10,1.83
+lenovo.com,False,high,Organization unchanged,2024-08-05,2025-08-05,1.0
+luzhenyu.cn,False,medium,Email domain unchanged,2024-06-21,2025-06-16,0.99
+mazuma.co.th,False,high,Organization unchanged,2024-08-04,2025-07-14,0.94
+meteoliariis.it,False,high,Organization unchanged,2024-05-21,2025-06-05,1.04
+mlnapi.com,False,high,Organization unchanged,2024-11-23,2025-11-23,1.0
+msiwoc.com,False,high,Organization and email domain unchanged,2024-05-03,2025-12-17,1.62
+myhealthfeed.com,False,low,Name unchanged (low confidence),2024-05-24,2024-07-07,0.12
+nokia.com,False,high,Organization and email domain unchanged,2024-05-31,2025-11-20,1.47
+ntu.edu.sg,False,low,Name unchanged (low confidence),2024-03-22,2025-08-23,1.42
+nuralogix.ai,False,high,Organization unchanged,2024-01-27,2025-11-26,1.83
+nvk.dk,False,low,Name unchanged (low confidence),2024-03-17,2025-09-08,1.48
+objectivepartners.com,False,medium,Email domain unchanged,2024-07-23,2025-12-29,1.43
+origins-china.cn,False,medium,Email domain unchanged,2024-12-18,2025-09-07,0.72
+plymouth.edu,False,low,Name unchanged (low confidence),2024-03-08,2025-08-12,1.43
+ponteacco.it,False,high,Organization unchanged,2024-08-08,2025-08-23,1.04
+positivocasainteligente.com.br,False,low,Name unchanged (low confidence),2024-09-02,2025-08-21,0.97
+praha.eu,False,low,Name unchanged (low confidence),2024-03-21,2025-04-23,1.09
+pregbuddy.com,False,high,Organization and email domain unchanged,2024-08-26,2025-11-10,1.21
+pyx-ic.com,False,high,Organization and email domain unchanged,2024-09-12,2025-09-12,1.0
+qcloud.com,False,high,Organization unchanged,2024-04-08,2024-08-20,0.36
+qut.edu.au,False,high,Organization unchanged,2024-06-03,2025-08-25,1.23
+radiosajnet.com.br,False,low,Name unchanged (low confidence),2024-05-14,2025-05-31,1.05
+roskildeskiklub.dk,False,low,Name unchanged (low confidence),2025-01-08,2025-09-11,0.67
+sanmarcoargentano.it,False,high,Organization unchanged,2024-03-23,2025-04-07,1.04
+sap.com,False,high,Organization and email domain unchanged,2024-11-18,2025-01-14,0.15
+selfhost.eu,False,low,Name unchanged (low confidence),2024-03-21,2025-12-26,1.77
+senya.fr,False,low,Name unchanged (low confidence),2024-06-11,2025-07-31,1.14
+servicewise.net.cn,True,medium,Email domain changed,2024-03-16,2025-03-09,0.98
+sierramarina.com,False,medium,Email domain unchanged,2025-11-19,2025-11-19,0.0
+sigulda.lv,False,low,Name unchanged (low confidence),2024-03-18,2025-12-31,1.79
+slackers.ma,False,low,Name unchanged (low confidence),2024-08-25,2025-08-28,1.01
+smartdevices.com.cn,True,medium,Email domain changed,2025-03-12,2025-09-09,0.5
+smartview3.at,False,high,Organization unchanged,2024-03-18,2025-12-24,1.77
+split-airport.hr,False,medium,Email domain unchanged,2024-07-23,2025-12-09,1.38
+sunfoot.cn,False,medium,Email domain unchanged,2024-07-04,2025-09-16,1.2
+swellnet.com.au,False,high,Organization unchanged,2024-02-08,2025-12-10,1.83
+sybase.com,False,high,Organization unchanged,2024-10-31,2025-12-19,1.13
+sydneycitywebcam.com,False,medium,Email domain unchanged,2024-03-02,2025-11-27,1.74
+timanetwork.cn,False,medium,Email domain unchanged,2024-10-04,2025-09-16,0.95
+touchngo.com,False,medium,Email domain unchanged,2024-04-19,2025-05-14,1.07
+turismofriuliveneziagiulia.it,False,high,Organization unchanged,2024-05-20,2025-11-01,1.45
+unam.mx,False,low,Name unchanged (low confidence),2024-03-27,2025-03-27,1.0
+velohero.com,False,medium,Email domain unchanged,2024-10-14,2025-11-25,1.11
+webcamlive.cz,False,high,Organization unchanged,2024-09-13,2024-12-11,0.24
+zhibocloud.cn,False,medium,Email domain unchanged,2024-03-18,2025-03-12,0.98
+zlatibor.rs,False,low,Name unchanged (low confidence),2024-03-04,2025-12-02,1.74
+alibaba-inc.com,False,low,Name unchanged (low confidence),2024-07-05,2025-12-05,1.42
+brandnertal.at,False,high,Organization unchanged,2024-03-21,2025-12-14,1.73
+caribbeanresort.com,False,low,Name unchanged (low confidence),2025-12-06,2025-12-06,0.0
+cdninstagram.com,False,high,Organization and email domain unchanged,2024-03-11,2025-05-28,1.21
+citrixworkspacesapi.net,True,high,Organization changed,2024-07-03,2025-08-15,1.11
+edis.at,False,high,Organization and email domain unchanged,2024-03-20,2025-12-19,1.75
+feratel.com,False,high,Organization and email domain unchanged,2024-07-03,2024-10-16,0.28
+jaegeralpe.at,False,high,Organization and email domain unchanged,2024-02-03,2025-12-14,1.86
+medves.si,False,low,Name unchanged (low confidence),2024-03-22,2025-03-10,0.97
+mirise-inc.jp,False,high,Organization and email domain unchanged,2024-11-30,2025-11-30,1.0
+myqcloud.com,False,high,Organization unchanged,2024-04-08,2024-08-20,0.36
+osmer.fvg.it,False,high,Organization unchanged,2024-03-27,2025-04-18,1.06
+ptttutorials.com,False,high,Organization and email domain unchanged,2024-05-03,2025-12-17,1.62
+temporal-wave.com,False,low,Name unchanged (low confidence),2025-02-06,2025-02-06,0.0
+thespruceeats.com,False,high,Organization unchanged,2024-02-10,2025-08-20,1.52
+tirol.gv.at,False,high,Organization and email domain unchanged,2024-03-20,2025-12-10,1.72
+zevs.si,False,low,Name unchanged (low confidence),2024-03-19,2025-03-09,0.97
+asfinag.at,False,high,Organization unchanged,2024-03-21,2025-12-12,1.72
+aui.ma,False,low,Name unchanged (low confidence),2024-11-27,2025-11-27,1.0
+beecloud.cn,True,medium,Email domain changed,2024-03-22,2025-06-22,1.25
+bell.ca,False,high,Organization and email domain unchanged,2025-08-25,2025-11-13,0.22
+bludenz.at,False,high,Organization unchanged,2024-03-22,2025-12-17,1.74
+cbslocal.com,False,high,Organization unchanged,2024-07-27,2025-07-27,1.0
+christysmotel.com,False,medium,Email domain unchanged,2024-03-13,2025-02-03,0.9
+cisartrieste.it,False,high,Organization unchanged,2024-06-11,2025-06-26,1.04
