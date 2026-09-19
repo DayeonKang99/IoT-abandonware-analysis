@@ -131,7 +131,7 @@ pip install ijson nvdlib packaging tqdm requests
 
 ---
 
-#### Step 0 — Download NVD JSON Feeds (Offline Path Only)
+#### Step 0 — Download NVD JSON Feeds
 
 Download the NVD JSON data feeds from:
 
@@ -141,7 +141,7 @@ Download all available annual JSON feed files (e.g., `nvdcve-2.0-2002.json` thro
 
 ⚠️ Since the current JSON feed files were updated on September 18, 2026, the analysis pipeline may not reproduce the same result as the paper because we downloaded the JSON feed files before August 1, 2026.
 
-#### Step 1 — Build the Local NVD Database (Offline Path Only)
+#### Step 1 — Build the Local NVD Database 
 
 ```bash
 python src/cve-search/nvd_db_build.py
@@ -175,7 +175,7 @@ Set the following before running:
 
 > **Offline path**: Leave the API key empty. The library names extracted here are used as input to `cve_search_offline.py` in the next step.
 
-#### Step 3 — Search CVEs Offline (Offline Path Only)
+#### Step 3 — Search CVEs Offline
 
 ```bash
 python src/cve-search/cve_search_offline.py
